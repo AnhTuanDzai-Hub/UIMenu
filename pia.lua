@@ -259,17 +259,6 @@ function Library:CreateWindow(hubname)
     Tile_Gradient.Name = "Tile_Gradient"
     Tile_Gradient.Parent = List_Tile
 
-    Toggle.Name = "Toggle"
-    Toggle.Parent = ScreenGui
-    Toggle.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
-    Toggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
-    Toggle.BorderSizePixel = 0
-    Toggle.Position = UDim2.new(0.0160791595, 0, 0.219451368, 0)
-    Toggle.Size = UDim2.new(0, 40, 0, 40)
-
-    toggle_corner.Name = "toggle_corner"
-    toggle_corner.Parent = Toggle
-
     -- Scripts:
     local function HJUAU_fake_script() -- Body.BodyObject 
         local script = Instance.new('LocalScript', Body)
