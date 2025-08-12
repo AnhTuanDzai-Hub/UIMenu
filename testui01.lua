@@ -5146,7 +5146,7 @@ local aa = {
     local aa, ab, ac, ad, ae = b(50)
 
     return {
-        Name               = "TuanAnhIOS - Blue Theme",
+        Name               = "TuanAnhIOS",
 
         -- ★ MÀU NHẤN / VIỀN / CHỮ CHÍNH
         Accent             = Color3.fromRGB(0, 153, 255),   -- Xanh dương tươi
